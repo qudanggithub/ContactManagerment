@@ -29,6 +29,12 @@ public class Customer {
 	public void setEmail(String email) {
 		Email = email;
 	}
+	public Customer() {
+		Id = "";
+		PhoneNumber = "";
+		Name = "";
+		Email = "";
+	}
 	public Customer(String id, String phoneNumber, String name, String email) {
 		this.Id = id;
 		this.PhoneNumber = phoneNumber;
